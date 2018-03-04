@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="description" content="Барпершоп">
-	<link rel="stylesheet" href="css/main.css"> <!-- Внешние стили -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Внешние стили -->
 	<title>Барбершоп «Бородинский»</title>
 </head>
 <body>
 	<header class="main-header">
 		<nav class="main-navigation">
 			<a class="main-header-logo">
-				<img src="img/index-logo.svg" width="368" height="153" alt="Логотип барбершопа «Бородинский»">
+				<img src="img/index-logo.svg" width="111" height="24" alt="Логотип барбершопа «Бородинский»">
 			</a>
 			<ul class="site-navigation">
 				<li><a href="info.html">Информация</a></li>
 				<li><a href="news.html">Новости</a></li>
 				<li><a href="price.html">Прайс-лист</a></li>
-				<li><a href="catalog.html">Магазин</a></li>
+				<li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
 				<li><a href="contacts.html">Контакты</a></li>
 			</ul>
 			<ul class="user-navigation">
@@ -112,9 +112,9 @@
 				</li>
 			</ul>
 		</div>
-		<p class="footer-copytight">
+		<p class="footer-copyright">
 			<b>Разработано:</b>
-			<a href="https://htmlacademy.ru" class="button">HTML Acadent</a>
+			<a href="https://htmlacademy.ru" class="button">HTML Academy</a>
 		</p>
 	</footer>
 	<section class="modal modal-login">
@@ -128,15 +128,5 @@
 		<!-- Здесь будет карта -->
 		<span class="modal-close">x</span>
 	</section>
-	<script>
-		/* Внутренний JS-скрипт */
-	</script>
-	<!-- LiveReload -->
-	<script>
-		document.write('<script src="http://' + 
-			(location.host || 'localhost').split(':')[0] + 
-			':35729/livereload.js?snipver=1"></' + 'script>')
-	</script>
-	<script src="js/scripts.js"></script> <!-- Внешний JS-скрипт -->
 </body>
 </html>
